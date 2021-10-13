@@ -1,0 +1,9 @@
+[Unit]
+Description=just testing
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/sbin/cpu_usage.py
+
+[Install]
+WantedBy=multi-user.target

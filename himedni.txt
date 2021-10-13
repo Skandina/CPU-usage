@@ -1,0 +1,34 @@
+
+Hej medni. Jag gjorde bara lite. (Att skapa service och .py file inne.) 
+It's a very small thing I think, but it took so long time for me. I hope it helps anyway.
+I used path/command lie this. 
+
+
+sudo vi usr/sbin/cpu_usage.py 
+
+- You can see what is written in python3 file.  
+
+
+sudo vi etc/systemd/system/cpu_usage.service 
+
+- You can see what is written in service file.
+
+
+sudo systemctl start cpu_usage.service 
+
+- You can start the service file 
+- You can also stop,start,restart,enable.. etc.
+sometimes I used enable and restart when it says that it's not working because of "bad setting"
+
+
+cat /tmp/sayhello.txt 
+- You can see what is written directly on the prompt. 
+
+
+I'm not sure how we could get the message text when the user used specific amount of memories.
+Should we use cron? because Patrik mentioned it directly after the systemd class? 
+not sure, I'll work on more on Thursday and I hope we could finish it on Thursday
+because I don't have time on Friday either, unfortunately. :( 
+
+
+-seongeun
