@@ -25,10 +25,5 @@ cat /tmp/sayhello.txt
 - You can see what is written directly on the prompt. 
 
 
-I'm not sure how we could get the message text when the user used specific amount of memories.
-Should we use cron? because Patrik mentioned it directly after the systemd class? 
-not sure, I'll work on more on Thursday and I hope we could finish it on Thursday
-because I don't have time on Friday either, unfortunately. :( 
-
 
 -seongeun
